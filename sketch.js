@@ -152,4 +152,9 @@ function draw()
 		pop();
 	}
 
+	fill(10);
+	textSize(120);
+	textAlign(RIGHT, BOTTOM);
+	text("fft-doodle", width, height);
+
 }
